@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.1.5",
+    "nx": "16.6.0",
+    "nx-cloud": "latest"
+  },
+  "scripts": {
+    "prepack": "npx lerna run test"
+  }
+}
